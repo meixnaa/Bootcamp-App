@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:padding="16dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/app_logo"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="0dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meine App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="80dp" />
+
+    <!-- Buttons mit dunkelroter Hintergrundfarbe -->
+    <Button
+        android:id="@+id/buttonZeitplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zeitplan"
+        android:backgroundTint="@color/dark_red"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonQuests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Quests"
+        android:backgroundTint="@color/dark_red"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonPricewall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pricewall Bestand"
+        android:backgroundTint="@color/dark_red"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonAuswertung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Auswertung"
+        android:backgroundTint="@color/dark_red"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

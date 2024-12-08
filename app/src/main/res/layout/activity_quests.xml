@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/talentbaum"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonMonoWhite"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        android:translationX="173dp"
+        android:translationY="300dp"
+         />
+
+    <Button
+        android:id="@+id/buttonMonoBlue"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:translationX="250dp"
+        android:translationY="350dp"/>
+
+    <Button
+        android:id="@+id/buttonMonoBlack"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:translationX="218dp"
+        android:translationY="440dp" />
+
+    <Button
+        android:id="@+id/buttonMonoRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mono Red"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/buttonMonoGreen"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Mono Green"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startseite"
+        android:translationY="620dp"
+        android:translationX="134dp"        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
